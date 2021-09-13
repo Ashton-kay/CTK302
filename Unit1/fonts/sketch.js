@@ -11,8 +11,4 @@ function draw() {
  textFont(f1)
  textSize(24)
  text("hello world", 100, 100);
-
- textFont(f2)
- textSize(24)
- text("bro", )
 }
