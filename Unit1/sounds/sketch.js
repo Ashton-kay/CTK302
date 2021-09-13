@@ -22,7 +22,7 @@ function mouseReleased() {
     song1.pause();
   } else {
     song1.loop();
-  }
+    }
 }
 
 // add these to programs that use sound, at the bottom
