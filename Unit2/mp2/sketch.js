@@ -51,7 +51,7 @@ function draw() {
     image(Goose,90,200,400,400);
     image(White, 10,100,400,400);
     image(Obi,150,100,400,400);
-    text("If you are to loud, you'll scare the cats!",100,100);
+    text("If you are too loud, you'll scare the cats!",100,100);
     // get the sound input
     vol = (mic.getLevel().toFixed(2)); // returned level is between 0 and 1
     if(vol > .5){
